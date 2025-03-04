@@ -1,11 +1,9 @@
 import React from "react";
 import { Navbar } from "../components";
-import ParticlesBackground from "../components/ParticlesBackground";
 
 const Home = () => {
     return (
         <div className="bg-black w-full h-screen flex justify-center text-white">
-            <ParticlesBackground />            
             <div className="w-3xl p-6">
                 <Navbar/>
                 <div className="flex flex-col md:flex-row justify-between items-center gap-3 my-20">
