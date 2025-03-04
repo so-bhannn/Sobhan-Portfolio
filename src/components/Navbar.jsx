@@ -7,7 +7,7 @@ const Navbar= ()=>{
         <div className="flex justify-between items-center py-8 px-4">
         <a href="#">
             <div className=" w-30 h-15 overflow-hidden flex items-center">
-                <img className="" src="src/assets/SOBHAN-logo.png" alt="" />
+                <img className="" src="https://i.ibb.co/20YVRtTF/SOBHAN-logo.png" alt="SOBHAN-logo" border="0"/>
             </div>
         </a>
         <nav>
@@ -52,13 +52,13 @@ const Navbar= ()=>{
             </section>
         <ul className="DESKTOP-MENU hidden space-x-8 lg:flex">
                 <li>
-                    <a className="text-2xl hover:text-blue-400" href="#">Projects</a>
+                    <a className="text-2xl text-white hover:text-blue-400" href="#">Projects</a>
                 </li>
                 <li>
-                    <a className="text-2xl hover:text-blue-400" href="#">Blogs</a>
+                    <a className="text-2xl text-white hover:text-blue-400" href="#">Blogs</a>
                 </li>
                 <li>
-                    <a className="text-2xl hover:text-blue-400" href="#">About</a>
+                    <a className="text-2xl text-white hover:text-blue-400" href="#">About</a>
                 </li>
             </ul>
         </nav>
