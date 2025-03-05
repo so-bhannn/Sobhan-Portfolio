@@ -4,10 +4,10 @@ const Navbar= ()=>{
     const [isNavOpen, setIsNavOpen] = useState(false);
 
     return (
-        <div className="flex justify-between items-center py-8 px-4">
-        <a href="#">
+        <div className="flex justify-between items-center py-4 px-4">
+        <a href="https://sobhan-portfolio.vercel.app/">
             <div className=" w-30 h-15 overflow-hidden flex items-center">
-                <img className="" src="https://i.ibb.co/20YVRtTF/SOBHAN-logo.png" alt="SOBHAN-logo" border="0"/>
+                <img src="https://i.ibb.co/20YVRtTF/SOBHAN-logo.png" alt="SOBHAN-logo" border="0"/>
             </div>
         </a>
         <nav>
@@ -22,7 +22,7 @@ const Navbar= ()=>{
                 </div>
                 
                 <div className={isNavOpen ? "showMenuNav":"hideMenuNav"} >
-                    <div className="CROSS-ICON absolute top-0 right-0 px-6 py-13"
+                    <div className="CROSS-ICON absolute top-0 right-0 px-9 py-13"
                     onClick={()=>setIsNavOpen(false)}>
                         <svg
                             className="w-9 h-9 text-white/50"
@@ -52,13 +52,13 @@ const Navbar= ()=>{
             </section>
         <ul className="DESKTOP-MENU hidden space-x-8 lg:flex">
                 <li>
-                    <a className="text-2xl text-white hover:text-blue-400" href="#">Projects</a>
+                    <a href="#"><p className="text-xl text-white hover:text-blue-400" >Projects</p></a>
                 </li>
                 <li>
-                    <a className="text-2xl text-white hover:text-blue-400" href="#">Blogs</a>
+                    <a href="#"><p className="text-xl text-white hover:text-blue-400">Blogs</p></a>
                 </li>
                 <li>
-                    <a className="text-2xl text-white hover:text-blue-400" href="#">About</a>
+                    <a href="#"><p className="text-xl text-white hover:text-blue-400">About</p></a>
                 </li>
             </ul>
         </nav>
