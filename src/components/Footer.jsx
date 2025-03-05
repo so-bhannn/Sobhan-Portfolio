@@ -1,7 +1,7 @@
 const Footer=()=>{
     return(
         <div className="w-full flex justify-between items-center pt-8">
-            <p className="text-xl text-white/80">© Sobhan</p>
+            <p className="text-2xl md:text-xl text-white/70">© Sobhan</p>
             <ul className="flex justify-between mx-0 my-3 gap-2">
                 <a href="https://github.com/so-bhannn" className="flex items-center md:gap-1">
                     <i className='bx bxl-github text-4xl md:text-2xl text-white/70 hover:text-white'></i>
