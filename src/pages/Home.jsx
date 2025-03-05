@@ -54,11 +54,11 @@ const Home = () => {
                                             <i className='bx bxl-django text-3xl text-gray-800'></i>
                                         </div>
                                     </div>
-                                    <div className="w-full flex gap-4">
+                                    <div className="w-full flex justify-between">
                                         <p className="w-3xs text-sm mb-1">A powerful tool for tracking, comparing, and analyzing prices across platforms.</p>
                                         <div className="inline justify-end gap-1">
-                                        <a href="#"><i className='bx bx-link text-4xl md:text-2xl text-gray-900'></i></a>
-                                        <a href="#"><i className='bx bxl-github text-4xl md:text-2xl text-gray-900'></i></a>
+                                        <a href="https://pricewise.store"><i className='bx bx-link text-4xl md:text-2xl text-gray-900'></i></a>
+                                        <a href="https://github.com/so-bhannn/PriceWise"><i className='bx bxl-github text-4xl md:text-2xl text-gray-900'></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -77,11 +77,11 @@ const Home = () => {
                                             <i className='bx bxl-django text-3xl text-gray-800'></i>
                                         </div>
                                     </div>
-                                    <div className="w-full flex gap-4">
+                                    <div className="w-full justify-between flex gap-4">
                                         <p className="w-3xs text-sm mb-1">Generate stylish GitHub profile cards with your avatar, bio, and stats.</p>
-                                        <div className="inline justify-end gap-1">
-                                            <a href="#"><i className='bx bx-link text-4xl md:text-2xl text-gray-900'></i></a>
-                                            <a href="#"><i className='bx bxl-github text-4xl md:text-2xl text-gray-900'></i></a>
+                                        <div className="inline gap-1">
+                                            <a href="https://git-hub-card-sigma.vercel.app/"><i className='bx bx-link text-4xl md:text-2xl text-gray-900'></i></a>
+                                            <a href="https://github.com/so-bhannn/GitHub-Card"><i className='bx bxl-github text-4xl md:text-2xl text-gray-900'></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -95,16 +95,16 @@ const Home = () => {
                                 <div className="bg-gradient-to-b from-gray-400 to-gray-900 text-gray-900 px-2 pb-2">
                                 <div className="flex justify-between mb-3 mt-1">
                                     <h1 className="text-2xl font-semibold">Medmate-Backend</h1>
-                                        <div className="flex">
+                                        <div className="flex ">
                                             <i className='bx bxl-django text-3xl text-gray-800'></i>
                                             <i className='bx bxl-firebase text-3xl text-gray-800'></i>
                                             <i className='bx bxl-gemini text-3xl text-gray-800'></i>
                                         </div>
                                     </div>
-                                    <div className="w-full flex gap-4">
+                                    <div className="w-full flex justify-between">
                                         <p className="w-3xs text-sm mb-1">Your AI health guide for medical queries, medicine tracking, and doctor search.</p>
-                                        <div className="inline justify-end gap-1">
-                                            <a href="#"><i className='bx bxl-github text-4xl md:text-2xl text-gray-900'></i></a>
+                                        <div className="inline gap-1">
+                                            <a href="https://github.com/Sahil-Mandal15/MedMate"><i className='bx bxl-github text-4xl md:text-2xl text-gray-900'></i></a>
                                         </div>
                                     </div>
                                 </div>
