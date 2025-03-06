@@ -39,7 +39,7 @@ const Navbar= ()=>{
                     </div>
                     <ul className="MENU-LINK-MOBILE-OPEN flex flex-col items-center justify-center min-h-[250px]">
                         <li className="border-b border-gray-400 my-8">
-                            <a className="text-2xl" href="#">Projects</a>
+                            <a className="text-2xl" href="/projects">Projects</a>
                         </li>
                         <li className="border-b border-gray-400 my-8">
                             <a className="text-2xl" href="/blogs">Blogs</a>
@@ -52,7 +52,7 @@ const Navbar= ()=>{
             </section>
         <ul className="DESKTOP-MENU hidden space-x-8 lg:flex">
                 <li>
-                    <a href="#"><p className="text-xl text-white hover:text-blue-400" >Projects</p></a>
+                    <a href="/projects"><p className="text-xl text-white hover:text-blue-400" >Projects</p></a>
                 </li>
                 <li>
                     <a href="/blogs"><p className="text-xl text-white hover:text-blue-400">Blogs</p></a>
