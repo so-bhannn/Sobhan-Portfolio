@@ -1,7 +1,7 @@
-import Home from "./Home";
-import Blogs from "./Blogs";
-import About from "./About";
-import Projects from "./Projects";
+import Home from "./Home.jsx";
+import Blogs from "./Blogs.jsx";
+import About from "./About.jsx";
+import Projects from "./Projects.jsx";
 
 export {
     Home,
