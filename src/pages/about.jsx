@@ -1,4 +1,3 @@
-// import calculateAge from '../utility/calculateAge'
 import {
     Navbar,
     Footer,
