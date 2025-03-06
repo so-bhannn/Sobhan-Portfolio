@@ -5,7 +5,7 @@ const Navbar= ()=>{
 
     return (
         <div className="flex justify-between items-center py-4 px-4">
-        <a href="https://sobhan-portfolio.vercel.app/">
+        <a href="/">
             <div className=" w-30 h-15 overflow-hidden flex items-center">
                 <img src="https://i.ibb.co/20YVRtTF/SOBHAN-logo.png" alt="SOBHAN-logo" border="0"/>
             </div>
@@ -42,10 +42,10 @@ const Navbar= ()=>{
                             <a className="text-2xl" href="#">Projects</a>
                         </li>
                         <li className="border-b border-gray-400 my-8">
-                            <a className="text-2xl" href="#">Blogs</a>
+                            <a className="text-2xl" href="/blogs">Blogs</a>
                         </li>
                         <li className="border-b border-gray-400 my-8">
-                            <a className="text-2xl" href="#">About</a>
+                            <a className="text-2xl" href="/about">About</a>
                         </li>
                     </ul>
                 </div>
@@ -55,10 +55,10 @@ const Navbar= ()=>{
                     <a href="#"><p className="text-xl text-white hover:text-blue-400" >Projects</p></a>
                 </li>
                 <li>
-                    <a href="#"><p className="text-xl text-white hover:text-blue-400">Blogs</p></a>
+                    <a href="/blogs"><p className="text-xl text-white hover:text-blue-400">Blogs</p></a>
                 </li>
                 <li>
-                    <a href="#"><p className="text-xl text-white hover:text-blue-400">About</p></a>
+                    <a href="/about"><p className="text-xl text-white hover:text-blue-400">About</p></a>
                 </li>
             </ul>
         </nav>

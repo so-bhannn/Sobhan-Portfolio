@@ -43,9 +43,9 @@ const Home = () => {
 
                         {/* Project #1 */}
                         <a href="#">
-                            <div className="flex flex-col max-w-sm rounded-sm overflow-hidden hover:scale-105 transition-transform duration-400">
+                            <div className="flex flex-col min-w-[296px] max-w-[352px] rounded-sm overflow-hidden hover:scale-105 transition-transform duration-400">
                                 <img className="w-full" src="https://i.ibb.co/xpYkyHV/pricewise.jpg"/>
-                                <div className="bg-gradient-to-b from-gray-400 to-gray-900 text-gray-900 px-2 pb-2">
+                                <div className="bg-gradient-to-b from-gray-300 to-gray-900 text-gray-900 px-2 pb-2">
                                     <div className="flex justify-between mb-3 mt-1">
                                         <h1 className="text-2xl font-semibold">Pricewise</h1>
                                         <div className="flex">
@@ -56,9 +56,9 @@ const Home = () => {
                                     </div>
                                     <div className="w-full flex justify-between">
                                         <p className="w-3xs text-sm mb-1">A powerful tool for tracking, comparing, and analyzing prices across platforms.</p>
-                                        <div className="inline justify-end gap-1">
-                                        <a href="https://pricewise.store"><i className='bx bx-link text-4xl md:text-2xl text-gray-900'></i></a>
-                                        <a href="https://github.com/so-bhannn/PriceWise"><i className='bx bxl-github text-4xl md:text-2xl text-gray-900'></i></a>
+                                        <div className="flex flex-col md:flex-row">
+                                            <a href="https://pricewise.store"><i className='bx bx-link text-4xl md:text-2xl text-gray-900'></i></a>
+                                            <a href="https://github.com/so-bhannn/PriceWise"><i className='bx bxl-github text-4xl md:text-2xl text-gray-900'></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -67,9 +67,9 @@ const Home = () => {
 
                         {/* Project #2 */}
                         <a href="#">
-                            <div className="flex flex-col max-w-sm rounded-sm overflow-hidden hover:scale-105 transition-transform duration-400">
+                            <div className="flex flex-col min-w-[296px] max-w-[352px] rounded-sm overflow-hidden hover:scale-105 transition-transform duration-400">
                                 <img className="w-full" src="https://i.ibb.co/4g8PLVLT/githubcard.png"/>
-                                <div className="bg-gradient-to-b from-gray-400 to-gray-900 text-gray-900 px-2 pb-2">
+                                <div className="bg-gradient-to-b from-gray-300 to-gray-900 text-gray-900 px-2 pb-2">
                                 <div className="flex justify-between mb-3 mt-1">
                                     <h1 className="text-2xl font-semibold">GitHub-Card</h1>
                                         <div className="flex">
@@ -77,9 +77,9 @@ const Home = () => {
                                             <i className='bx bxl-django text-3xl text-gray-800'></i>
                                         </div>
                                     </div>
-                                    <div className="w-full justify-between flex gap-4">
+                                    <div className="w-full justify-between flex">
                                         <p className="w-3xs text-sm mb-1">Generate stylish GitHub profile cards with your avatar, bio, and stats.</p>
-                                        <div className="inline gap-1">
+                                        <div className="flex flex-col md:flex-row gap-1">
                                             <a href="https://git-hub-card-sigma.vercel.app/"><i className='bx bx-link text-4xl md:text-2xl text-gray-900'></i></a>
                                             <a href="https://github.com/so-bhannn/GitHub-Card"><i className='bx bxl-github text-4xl md:text-2xl text-gray-900'></i></a>
                                         </div>
@@ -90,9 +90,9 @@ const Home = () => {
                         
                         {/* Project #3 */}
                         <a href="#">
-                            <div className="flex flex-col max-w-sm rounded-sm overflow-hidden hover:scale-105 transition-transform duration-400">
-                                <img className="w-[352px] h-[172px]" src="" alt="project-photo"/>
-                                <div className="bg-gradient-to-b from-gray-400 to-gray-900 text-gray-900 px-2 pb-2">
+                            <div className="flex flex-col min-w-[296px] max-w-[352px] rounded-sm overflow-hidden hover:scale-105 transition-transform duration-400">
+                                <img className="w-full h-[172px]" src="src/assets/Medmate.png" alt="project-photo"/>
+                                <div className="bg-gradient-to-b from-gray-300 to-gray-900 text-gray-900 px-2 pb-2">
                                 <div className="flex justify-between mb-3 mt-1">
                                     <h1 className="text-2xl font-semibold">Medmate-Backend</h1>
                                         <div className="flex ">
@@ -103,7 +103,7 @@ const Home = () => {
                                     </div>
                                     <div className="w-full flex justify-between">
                                         <p className="w-3xs text-sm mb-1">Your AI health guide for medical queries, medicine tracking, and doctor search.</p>
-                                        <div className="inline gap-1">
+                                        <div className="flex flex-col md:flex-row gap-1">
                                             <a href="https://github.com/Sahil-Mandal15/MedMate"><i className='bx bxl-github text-4xl md:text-2xl text-gray-900'></i></a>
                                         </div>
                                     </div>

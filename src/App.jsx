@@ -1,6 +1,10 @@
 import './App.css'
-import { Home } from './pages'
 import {BrowserRouter as Router,Route, Routes} from 'react-router-dom'
+import { 
+  Home,
+  Blogs,
+  About
+ } from './pages'
 
 function App() {
   return (
@@ -9,6 +13,8 @@ function App() {
         <div className='App'>
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/blogs" element={<Blogs />} />
+            <Route path="/about" element={<About />} />
           </Routes>
         </div>
       </Router>
