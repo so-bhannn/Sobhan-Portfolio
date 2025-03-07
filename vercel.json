@@ -1,19 +1,27 @@
 {
-  "version": 2,
-  "builds": [
-    {
-      "src": "package.json",
-      "use": "@vercel/static-build",
-      "config": {
-        "buildCommand": "npm run build",
-        "outputDirectory": "dist"
+    "version": 2,
+    "builds": [
+      {
+        "src": "package.json",
+        "use": "@vitejs/plugin-react"
       }
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/index.html"
-    }
-  ]
-}
+    ],
+    "routes": [
+      {
+        "src": "/blogs",
+        "dest": "/"
+      },
+      {
+        "src": "/about",
+        "dest": "/"
+      },
+      {
+        "src": "/projects",
+        "dest": "/"
+      },
+      {
+        "src": "/(.*)",
+        "dest": "/"
+      }
+    ]
+  }
