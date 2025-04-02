@@ -50,7 +50,7 @@ const Navbar= ()=>{
                     </ul>
                 </div>
             </section>
-        <ul className="DESKTOP-MENU hidden space-x-8 lg:flex">
+            <ul className="DESKTOP-MENU hidden space-x-8 lg:flex">
                 <li>
                     <a href="/projects"><p className="text-xl text-white hover:text-blue-400" >Projects</p></a>
                 </li>
